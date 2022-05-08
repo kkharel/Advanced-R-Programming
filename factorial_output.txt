@@ -1,0 +1,176 @@
+[1] 9.332622e+157
+[1] 120
+[1] 9.332622e+157
+[1] 120
+Unit: microseconds
+        expr   min    lq    mean median     uq    max neval
+        loop   1.5   1.8  43.798   1.90   2.00 4187.0   100
+      reduce 109.7 112.9 166.303 114.65 124.30 4706.3   100
+   recursive  19.7  20.1  21.443  20.40  21.05   44.4   100
+ memoization  27.0  27.5  29.446  27.80  29.20   58.1   100
+[1] "C:/Users/kkhar/OneDrive/Documents/r oop, fibo, factoria"
+$id
+ [1]  14  20  41  44  46  54  64  74 104 106
+
+$data
+$data[[1]]
+# A tibble: 11,945 x 4
+   visit room    value timepoint
+   <int> <chr>   <dbl>     <int>
+ 1     0 bedroom  6           53
+ 2     0 bedroom  6           54
+ 3     0 bedroom  2.75        55
+ 4     0 bedroom  2.75        56
+ 5     0 bedroom  2.75        57
+ 6     0 bedroom  2.75        58
+ 7     0 bedroom  6           59
+ 8     0 bedroom  6           60
+ 9     0 bedroom  2.75        61
+10     0 bedroom  2.75        62
+# ... with 11,935 more rows
+
+$data[[2]]
+# A tibble: 11,497 x 4
+   visit room    value timepoint
+   <int> <chr>   <dbl>     <int>
+ 1     0 bedroom    16       126
+ 2     0 bedroom    12       127
+ 3     0 bedroom     9       128
+ 4     0 bedroom    12       129
+ 5     0 bedroom    17       130
+ 6     0 bedroom    13       131
+ 7     0 bedroom    13       132
+ 8     0 bedroom    11       133
+ 9     0 bedroom    12       134
+10     0 bedroom    19       135
+# ... with 11,487 more rows
+
+$data[[3]]
+# A tibble: 11,636 x 4
+   visit room    value timepoint
+   <int> <chr>   <dbl>     <int>
+ 1     0 bedroom  2.75         1
+ 2     0 bedroom  2.75         2
+ 3     0 bedroom  2.75         3
+ 4     0 bedroom  2.75         4
+ 5     0 bedroom  2.75         5
+ 6     0 bedroom  8            6
+ 7     0 bedroom  7            7
+ 8     0 bedroom  6            8
+ 9     0 bedroom  2.75         9
+10     0 bedroom  2.75        10
+# ... with 11,626 more rows
+
+$data[[4]]
+# A tibble: 13,104 x 4
+   visit room    value timepoint
+   <int> <chr>   <dbl>     <int>
+ 1     0 bedroom    23        94
+ 2     0 bedroom    23        95
+ 3     0 bedroom    24        96
+ 4     0 bedroom    29        97
+ 5     0 bedroom    26        98
+ 6     0 bedroom    25        99
+ 7     0 bedroom    26       100
+ 8     0 bedroom    27       101
+ 9     0 bedroom    25       102
+10     0 bedroom    30       103
+# ... with 13,094 more rows
+
+$data[[5]]
+# A tibble: 13,812 x 4
+   visit room    value timepoint
+   <int> <chr>   <dbl>     <int>
+ 1     0 bedroom    50        20
+ 2     0 bedroom    48        21
+ 3     0 bedroom    32        22
+ 4     0 bedroom    25        23
+ 5     0 bedroom    20        24
+ 6     0 bedroom    17        25
+ 7     0 bedroom    15        26
+ 8     0 bedroom    19        27
+ 9     0 bedroom    13        28
+10     0 bedroom     6        29
+# ... with 13,802 more rows
+
+$data[[6]]
+# A tibble: 10,944 x 4
+   visit room        value timepoint
+   <int> <chr>       <dbl>     <int>
+ 1     0 living room  2.75        70
+ 2     0 living room  2.75        71
+ 3     0 living room  2.75        72
+ 4     0 living room  2.75        73
+ 5     0 living room  2.75        74
+ 6     0 living room  2.75        75
+ 7     0 living room  2.75        76
+ 8     0 living room  2.75        77
+ 9     0 living room  2.75        78
+10     0 living room  2.75        79
+# ... with 10,934 more rows
+
+$data[[7]]
+# A tibble: 11,367 x 4
+   visit room    value timepoint
+   <int> <chr>   <dbl>     <int>
+ 1     0 bedroom    16        98
+ 2     0 bedroom    17        99
+ 3     0 bedroom    17       100
+ 4     0 bedroom    17       101
+ 5     0 bedroom    16       102
+ 6     0 bedroom    17       103
+ 7     0 bedroom    21       104
+ 8     0 bedroom    16       105
+ 9     0 bedroom    15       106
+10     0 bedroom    16       107
+# ... with 11,357 more rows
+
+$data[[8]]
+# A tibble: 11,517 x 4
+   visit room  value timepoint
+   <int> <chr> <dbl>     <int>
+ 1     0 hall     28        84
+ 2     0 hall     29        85
+ 3     0 hall     32        86
+ 4     0 hall     32        87
+ 5     0 hall     27        88
+ 6     0 hall     25        89
+ 7     0 hall     26        90
+ 8     0 hall     37        91
+ 9     0 hall     28        92
+10     0 hall     29        93
+# ... with 11,507 more rows
+
+$data[[9]]
+# A tibble: 11,232 x 4
+   visit room    value timepoint
+   <int> <chr>   <dbl>     <int>
+ 1     0 bedroom  2.75        10
+ 2     0 bedroom  2.75        11
+ 3     0 bedroom  2.75        12
+ 4     0 bedroom  2.75        13
+ 5     0 bedroom  2.75        14
+ 6     0 bedroom  2.75        15
+ 7     0 bedroom  2.75        16
+ 8     0 bedroom  2.75        17
+ 9     0 bedroom  2.75        18
+10     0 bedroom  2.75        19
+# ... with 11,222 more rows
+
+$data[[10]]
+# A tibble: 13,823 x 4
+   visit room    value timepoint
+   <int> <chr>   <dbl>     <int>
+ 1     0 bedroom    19        79
+ 2     0 bedroom    18        80
+ 3     0 bedroom    18        81
+ 4     0 bedroom    17        82
+ 5     0 bedroom    16        83
+ 6     0 bedroom    15        84
+ 7     0 bedroom    15        85
+ 8     0 bedroom    13        86
+ 9     0 bedroom    16        87
+10     0 bedroom    13        88
+# ... with 13,813 more rows
+
+
