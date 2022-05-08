@@ -2,7 +2,7 @@ Part 1:
     # Contains factorial algorithms using different methods (loops, recursion, memoization, reduce)
 
 Part 2:
-      # Contains object oriented programming methods in R programming
+   # Contains object oriented programming methods in R programming
            # data small study on indoor air pollution on 10 subjects
            # each subject was visited 3 times
            # pollution level recorded every 5 mins for 1 week
