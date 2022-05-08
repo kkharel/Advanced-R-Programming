@@ -1,0 +1,34 @@
+[1] 9.332622e+157
+[1] 120
+[1] 9.332622e+157
+[1] 120
+Unit: nanoseconds
+        expr   min    lq  mean median    uq     max neval
+        loop   600   700 37363    700   800 3660400   100
+      reduce 38400 39300 80538  40200 41800 3770400   100
+   recursive   600   700   825    800   800    4700   100
+ memoization   800   900  1227   1000  1100   14600   100
+Unit: nanoseconds
+        expr   min    lq  mean median    uq    max neval
+        loop   700   900  3169   1000  1450 195900   100
+      reduce 45900 47200 58994  48400 61800 299100   100
+   recursive  2200  2500  3153   2700  3300  11800   100
+ memoization  3000  3300  4100   3500  4350  19700   100
+Unit: microseconds
+        expr  min    lq    mean median     uq   max neval
+        loop  1.1  1.40   2.625   2.05   2.80  38.4   100
+      reduce 76.4 79.65 124.593 125.60 142.60 355.7   100
+   recursive 10.1 10.70  16.077  16.75  18.95  48.2   100
+ memoization 13.6 14.50  22.275  22.70  25.30  79.6   100
+Unit: microseconds
+        expr   min    lq    mean median    uq   max neval
+        loop   2.4   2.6   3.103   2.80   3.0  17.6   100
+      reduce 181.5 185.3 198.548 188.85 196.6 377.1   100
+   recursive  39.0  39.7  44.082  40.20  41.8 112.5   100
+ memoization  52.8  53.7  58.168  54.50  55.7 107.3   100
+Unit: microseconds
+        expr   min     lq     mean median     uq    max neval
+        loop   9.3  10.30   13.643   11.0  14.00   51.5   100
+      reduce 770.3 835.90 1057.521  913.6 996.60 5025.5   100
+   recursive 208.6 221.00  281.628  232.5 282.10  966.5   100
+ memoization 283.3 293.15  365.456  316.6 403.65  853.6   100
