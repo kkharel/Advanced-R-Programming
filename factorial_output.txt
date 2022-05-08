@@ -1,0 +1,46 @@
+[1] 120
+[1] 120
+[1] 120
+[1] 120
+n = 1
+Unit: nanoseconds
+        expr   min    lq  mean median    uq     max neval
+        loop   400   500 25401    500   600 2483000   100
+      reduce 27700 28400 58796  29000 29950 2654200   100
+   recursive   400   500   604    600   600    2300   100
+ memoization  1600  1900 57294   2000  2200 5514500   100
+
+n = 5
+Unit: nanoseconds
+         expr   min    lq  mean median    uq    max neval
+         loop   400   600  1091    700   700  42100   100
+       reduce 32800 33800 38800  34600 37500 245500   100
+    recursive  1600  1700  1919   1800  2000   7700   100
+  memoization  1700  1800  2018   1900  2100   7200   100
+ memoization2  1700  1800  2600   2000  2200  31700   100
+
+n = 25
+Unit: nanoseconds
+        expr   min    lq  mean median    uq    max neval
+        loop   700  1000  1226   1000  1200   6900   100
+      reduce 53200 54400 67269  55300 66950 277400   100
+   recursive  7100  7300  9164   7500  8500  79500   100
+ memoization  1700  1900  2708   2100  2350  20700   100
+
+n = 100
+Unit: microseconds
+        expr   min     lq    mean median     uq   max neval
+        loop   1.7   1.90   2.077   2.00   2.20   4.3   100
+      reduce 133.2 135.75 156.517 139.05 162.95 270.3   100
+   recursive  28.7  29.20  34.756  29.95  33.60 177.1   100
+ memoization   1.7   1.90   2.554   2.20   2.50  12.9   100
+
+n = 500
+Unit: microseconds
+        expr   min     lq    mean median     uq    max neval
+        loop   6.8   7.20   8.501   7.50   8.10   78.2   100
+      reduce 547.7 576.55 668.006 604.55 680.15 2804.7   100
+   recursive 157.0 165.50 196.991 172.30 206.90  493.1   100
+ memoization   1.7   2.00   3.934   2.85   3.50   58.3   100
+
+Recursion error happens for big n
