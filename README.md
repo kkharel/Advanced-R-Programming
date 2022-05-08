@@ -1,5 +1,5 @@
 Part 1:
-    # Contains factorial algorithms using different methods (loops, recursion, memoization, reduce)
+# Factorial algorithms using different methods (loops, recursion, memoization, reduce)
 
 Part 2: 
 # object oriented programming methods in R 
