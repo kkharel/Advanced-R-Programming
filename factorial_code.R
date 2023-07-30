@@ -1,5 +1,4 @@
 #Part 1: Factorial Function
-setwd("C:/Users/kkhar/OneDrive/Documents/r oop, fibo, factoria")
 
 sink(file = "factorial_output.txt")
 
