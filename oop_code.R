@@ -25,8 +25,6 @@
 
 getwd()
 
-setwd("C:/Users/kkhar/OneDrive/Documents/r oop, fibo, factoria")
-
 sink(file = "oop_output.txt")
 
 #Defining Functions
